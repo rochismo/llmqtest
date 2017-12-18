@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    header
+  </header>
+
+  <main>
+    <aside>Aside</aside>
+    <section>Section 1</section>
+    <section>
+      <section>Susbsection 2.1</section>
+      <section>Susbsection 2.2</section>
+      <section>Susbsection 2.3</section>
+      <section>Susbsection 2.4</section>
+      <section>Susbsection 2.5</section>
+      <section>Susbsection 2.6</section>
+      <section>Susbsection 2.7</section>
+      <section>Susbsection 2.8</section>
+    </section>
+  </main>
+
+  <footer>
+    footer
+  </footer>
+
+</body>
+</html>
+
+<!--
+FlexBox -
+  Redistribucio dels espais dins les capses.
+  Containers de mida dinàmica.
+
+  Posicionament:
+    - Position (relative, absolute)
+    - Float - - - gridView
+
+  1 - Contenedor pare (body / .pare)
+      - display: flex; <- obligatori
+      - flex-direction: row (defecte. dreta-esquerra)
+        | row-reverse (esquerra-dreta)| column ()| column-reverse <- no obligatori, es la direcció dels elements fills.
+      - flex-wrap: nowrap | wrap | wrap-reverse;
+      - justify-contenct: flex-start | flex-end | center | space-between | space-around | space-evenly <- Justificació del contingut
+      - align-items: flex-start | flex-end | center | baseline (alinea les primeres lines de cada item) | stretch
+      - align-content: <- alinea el contingut
+      Diferencia: justify-content s'ocupa de cada linea com es justifica. align-content la justificacio del contingut sencer.
+
+  2 - Contenedor fill
+      - order: <numero> (default 0) <- nº que s'ordenarà a partir del pare. S'ordenen de menor a major.
+      - flex-grow:  <- nº positiu que indica la proporció que creixerà l'item respecte els altres fills.
+      - flex-shrink: <- nº positiu que indica la proporció que decreixerà l'item respecte als altres fills.
+      - flex-basis: <- deixar en auto
+      - flex:
+      - align-self:
+-->
